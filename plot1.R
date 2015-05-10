@@ -42,5 +42,5 @@ cuts <- c(0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 
 png(file="plot1.png", bg="white")
 hist(hpc.gap, breaks = cuts, col = "red", main = "Global Active Power", xlab = "Global Active Power (kilowatts)")
 
-# Turn off the output device.
+# Turn the current device for the PNG file off.
 dev.off()
